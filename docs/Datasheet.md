@@ -1,6 +1,5 @@
 # 📄 Datasheet: BBO Capstone Query History and Function Evaluations
 
----
 
 ## 1. Motivation
 
@@ -18,7 +17,6 @@ This dataset captures the full query history and enables:
 - Reproducibility of the optimisation process  
 - Analysis of exploration vs exploitation strategies  
 
----
 
 ## 2. Composition
 
@@ -52,7 +50,6 @@ Each record contains:
 - Limited exploration in high-dimensional areas  
 - Bias toward boundary values after strong signals  
 
----
 
 ## 3. Collection Process
 
@@ -77,7 +74,6 @@ The dataset was collected over **10 optimisation rounds**.
 Key observation:
 - Function 5 showed strong boundary behaviour → deterministic strategy used  
 
----
 
 ## 4. Preprocessing and Uses
 
@@ -97,7 +93,6 @@ Key observation:
 - General statistical conclusions  
 - Non-sequential ML tasks  
 
----
 
 ## 5. Distribution and Maintenance
 
@@ -118,7 +113,6 @@ This dataset is maintained as part of the **BBO Capstone GitHub Repository**.
 - Dataset is for **educational purposes only**
 - Repository owner is responsible for updates  
 
----
 
 ## 📌 Summary
 
