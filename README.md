@@ -1,5 +1,3 @@
-# Imperial College London – ML/AI Course  
-## BBO Capstone Project
 
 ## Project Overview
 
