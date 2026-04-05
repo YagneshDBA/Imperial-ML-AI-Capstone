@@ -20,25 +20,27 @@ It is directly applicable to problems such as hyperparameter tuning, system opti
 
 ## Navigating this Repository
 
-- `/data`  
-  Contains initial datasets and processed data  
+## Navigating this Repository
 
-- `/docs`  
+- 📁 [`data/`](./data/)  
+  Contains initial datasets and processed data.
+
+- 📄 [`docs/`](./docs/)  
   Contains project documentation:  
-  - [`DATASHEET.md`](./docs/DATASHEET.md)  
-  - [`MODEL_CARD.md`](./docs/MODEL_CARD.md)  
+  - 📊 [`Datasheet.md`](./docs/Datasheet.md)  
+  - 🤖 [`ModelCard.md`](./docs/ModelCard.md)  
 
-- `/notebooks`  
-  Contains weekly optimisation workflows  
+- 📓 [`notebooks/`](./notebooks/)  
+  Contains weekly optimisation workflows.
 
-- `/outputs`  
-  Contains query submissions and results  
+- 📦 [`outputs/`](./outputs/)  
+  Contains query submissions and results.
 
-- `/src`  
-  Contains reusable functions (Gaussian Process, UCB, helpers)  
+- ⚙️ [`src/`](./src/)  
+  Contains reusable functions such as Gaussian Process, UCB, and helper utilities.
 
-- `README.md`  
-  Project overview and documentation  
+- 📘 [`README.md`](./README.md)  
+  Main project overview and documentation.  
 
 ---
 
