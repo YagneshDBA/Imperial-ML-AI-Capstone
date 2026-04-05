@@ -1,6 +1,5 @@
 # 📄 Model Card: BBO Capstone Bayesian Optimisation Strategy
 
----
 
 ## 1. Overview
 
@@ -17,7 +16,6 @@ The approach combines:
 
 Unlike a static model, this is an **iterative decision-making system** that evolves after each round based on newly observed data.
 
----
 
 ## 2. Intended Use
 
@@ -33,7 +31,6 @@ Unlike a static model, this is an **iterative decision-making system** that evol
 - Real-time production systems without validation  
 - Tasks requiring guaranteed global optimality  
 
----
 
 ## 3. Model Details and Strategy Evolution
 
@@ -63,7 +60,6 @@ Unlike a static model, this is an **iterative decision-making system** that evol
 - Local vs global candidate balancing  
 - Boundary-aware sampling  
 
----
 
 ## 4. Performance
 
@@ -85,7 +81,6 @@ Unlike a static model, this is an **iterative decision-making system** that evol
 ### Key Insight:
 Performance is measured based on **observed maxima**, since true optima are unknown.
 
----
 
 ## 5. Assumptions and Limitations
 
@@ -107,7 +102,6 @@ Performance is measured based on **observed maxima**, since true optima are unkn
 - Overconfidence in surrogate model  
 - Reduced effectiveness on irregular functions  
 
----
 
 ## 6. Ethical Considerations
 
@@ -134,7 +128,6 @@ In real-world ML systems, lack of transparency can lead to:
 
 This model card helps mitigate those risks.
 
----
 
 ## 📌 Summary
 
