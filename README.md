@@ -1,7 +1,5 @@
 # Imperial College London – ML/AI Course  
-## BBO Capstone Project – Stage 2
-
----
+## BBO Capstone Project
 
 ## Project Overview
 
@@ -15,10 +13,6 @@ This project reflects real-world machine learning scenarios where:
 - decisions must be made sequentially  
 
 It is directly applicable to problems such as hyperparameter tuning, system optimisation and resource allocation.
-
----
-
-## Navigating this Repository
 
 ## Navigating this Repository
 
@@ -42,8 +36,6 @@ It is directly applicable to problems such as hyperparameter tuning, system opti
 - 📘 [`README.md`](./README.md)  
   Main project overview and documentation.  
 
----
-
 ## Inputs and Outputs
 
 ### Inputs
@@ -60,8 +52,6 @@ Example (2D):
 Example (8D):
 0.070633-0.111808-0.152301-0.000000-0.866908-0.360084-0.290190-0.999999
 
----
-
 ### Outputs
 
 Each query returns a scalar value representing function evaluation.
@@ -73,8 +63,6 @@ Examples:
 - Function 5 → ~8662  
 
 These outputs act as the optimisation signal.
-
----
 
 ## Challenge Objective
 
@@ -89,8 +77,6 @@ This introduces a core trade-off:
 
 - Exploration → discovering new regions  
 - Exploitation → refining known good regions  
-
----
 
 ## Why Bayesian Optimisation
 
@@ -107,8 +93,6 @@ The approach allows:
 - Selecting promising regions  
 - Iteratively improving performance  
 
----
-
 ## Technical Approach
 
 The optimisation framework uses:
@@ -122,8 +106,6 @@ Candidate generation combines:
 
 - Global random sampling (exploration)  
 - Local sampling near best point (exploitation)  
-
----
 
 ## Strategy Evolution (Actual Week-by-Week Work)
 
@@ -204,18 +186,11 @@ Final strategy:
 
 ---
 
-## Documentation
-
-- Datasheet: docs/DATASHEET.md  
-- Model Card: docs/MODEL_CARD.md  
-
----
-
 ## Datasheet and Model Card Integration
 
 ### Datasheet
-
-Documents:
+ 
+Documents: [`Datasheet.md`](./docs/Datasheet.md)
 - Query history  
 - Dataset composition  
 - Collection process  
@@ -227,7 +202,7 @@ Sampling becomes increasingly biased toward high-performing regions.
 
 ### Model Card
 
-Documents:
+Documents: [`ModelCard.md`](./docs/ModelCard.md)
 - Optimisation strategy  
 - Model choices  
 - Evolution across rounds  
