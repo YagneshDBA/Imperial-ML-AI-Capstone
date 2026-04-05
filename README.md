@@ -105,7 +105,7 @@ Candidate generation combines:
 ## Strategy Evolution (Actual Week-by-Week Work)
 
 ### Week 1–4: Exploration Phase  
-📓 notebooks/01_capstone_workflow_Week1_to_Week4.ipynb  
+📓   [01_capstone_workflow_Week1_to_Week4.ipynb](./notebooks/01_capstone_workflow_Week1_to_Week4.ipynb)  
 
 - Focused on understanding search space  
 - Broad exploration  
@@ -114,7 +114,7 @@ Candidate generation combines:
 ---
 
 ### Week 5: Model Introduction  
-📓 notebooks/02_capstone_workflow_Week5.ipynb  
+📓   [02_capstone_workflow_Week5.ipynb](./notebooks/02_capstone_workflow_Week5.ipynb)  
 
 - Introduced Gaussian Process  
 - Started model-guided decisions  
@@ -123,7 +123,7 @@ Candidate generation combines:
 ---
 
 ### Week 6: Refinement  
-📓 notebooks/03_capstone_workflow_Week6.ipynb  
+📓   [03_capstone_workflow_Week6.ipynb](./notebooks/03_capstone_workflow_Week6.ipynb)
 
 - Improved surrogate usage  
 - Better candidate generation  
@@ -132,7 +132,7 @@ Candidate generation combines:
 ---
 
 ### Week 7: Transition to Exploitation  
-📓 notebooks/04_capstone_workflow_Week7.ipynb  
+📓   [04_capstone_workflow_Week7.ipynb](./notebooks/04_capstone_workflow_Week7.ipynb)  
 
 - Began refining promising regions  
 - Reduced unnecessary exploration  
@@ -141,7 +141,7 @@ Candidate generation combines:
 ---
 
 ### Week 8: Major Strategic Shift  
-📓 notebooks/05_capstone_workflow_Week8.ipynb  
+📓 [05_capstone_workflow_Week8.ipynb](./notebooks/05_capstone_workflow_Week8.ipynb)  
 
 - Identified function-specific behaviour  
 - Introduced different strategies per function  
@@ -150,7 +150,7 @@ Candidate generation combines:
 ---
 
 ### Week 9: Strong Signal Confirmation  
-📓 notebooks/06_capstone_workflow_Week9.ipynb  
+📓   [06_capstone_workflow_Week9.ipynb](./notebooks/06_capstone_workflow_Week9.ipynb)  
 
 - Function 5 confirmed as boundary-driven  
 - Function 7 and 8 showed strong improvement  
@@ -159,9 +159,10 @@ Candidate generation combines:
 ---
 
 ### Week 10: Mature Adaptive Strategy  
-📓 notebooks/07_capstone_workflow_Week10.ipynb  
+📓   [07_capstone_workflow_Week10.ipynb](./notebooks/07_capstone_workflow_Week10.ipynb) 
 
-Final strategy:
+
+## Final strategy:
 
 | Function | Strategy |
 |----------|---------|
@@ -170,7 +171,7 @@ Final strategy:
 | F2 | Controlled refinement |
 | F1, F3, F4, F6 | Continued exploration |
 
----
+
 
 ## Key Observations
 
@@ -179,7 +180,7 @@ Final strategy:
 - Exploration is still required for uncertain functions  
 - Strategy must adapt per function  
 
----
+
 
 ## Datasheet and Model Card Integration
 
@@ -193,7 +194,6 @@ Documents: [`Datasheet.md`](./docs/Datasheet.md)
 Key insight:
 Sampling becomes increasingly biased toward high-performing regions.
 
----
 
 ### Model Card
 
@@ -202,7 +202,6 @@ Documents: [`ModelCard.md`](./docs/ModelCard.md)
 - Model choices  
 - Evolution across rounds  
 
----
 
 ### Assumptions and Limitations
 
@@ -215,7 +214,6 @@ Limitations:
 - High-dimensional complexity  
 - Dependency on early sampling  
 
----
 
 ## Alternatives Considered
 
@@ -223,7 +221,6 @@ Limitations:
 - SVM → sensitive to noise  
 - Deep Learning → not suitable for small datasets  
 
----
 
 ## Learning Outcomes
 
@@ -232,4 +229,3 @@ Limitations:
 - Model-based exploration  
 - Handling uncertainty in ML systems   
 
----
