@@ -33,9 +33,6 @@ It is directly applicable to problems such as hyperparameter tuning, system opti
 - ⚙️ [`src/`](./src/)  
   Contains reusable functions such as Gaussian Process, UCB, and helper utilities.
 
-- 📘 [`README.md`](./README.md)  
-  Main project overview and documentation.  
-
 ## Inputs and Outputs
 
 ### Inputs
