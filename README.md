@@ -476,7 +476,6 @@ This repository follows **industry best practices** for ML documentation:
 | **[Model Card](docs/ModelCard.md)** | Algorithm details, performance metrics, assumptions, limitations, ethical considerations |
 | **[Datasheet](docs/Datasheet.md)** | Dataset composition, collection process, intended uses, known gaps |
 | **[Strategy Evolution](docs/strategy_evolution.md)** | Week-by-week decision rationale and thinking process |
-| **[CLAUDE.md](CLAUDE.md)** | Codebase guidance for AI-assisted development |
 
 ### Reproducibility Guarantees
 
